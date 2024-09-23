@@ -5,7 +5,7 @@ interface Employee {
   id: number;
   name: string;
   role: string;
-}
+} 
 
 interface EmployeeState {
   employees: Employee[];
