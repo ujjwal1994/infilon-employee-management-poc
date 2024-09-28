@@ -1,0 +1,287 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* Header */
+header {
+  background-color: white;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+header .logo img {
+  height: 50px;
+}
+
+header .location select {
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+header .nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+header .nav-links li {
+  display: inline;
+}
+
+header .login-btn button {
+  background-color: #ff5722;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Banner */
+.banner {
+  background-image: url("/path/to/banner-image.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 30px;
+  color: white;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 2.5em;
+}
+
+.banner span {
+  color: #ff5722;
+}
+
+.banner .search-bar {
+  margin-top: 20px;
+}
+
+.banner .search-bar input {
+  padding: 15px;
+  width: 60%;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.banner .search-bar button {
+  padding: 15px 30px;
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Best Offers */
+.best-offers {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.best-offers h2 {
+  margin-bottom: 20px;
+}
+
+.offer-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.offer-card {
+  background-color: #f5f5f5;
+  padding: 15px 20px;
+  border-radius: 8px;
+  width: 120px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Restaurants Near You */
+.restaurants-near-you {
+  padding: 30px;
+  text-align: center;
+  background-color: white;
+  margin-top: 10px;
+}
+
+.restaurant-cards {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.restaurant-card {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  width: 180px;
+  padding: 10px;
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.restaurant-card p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.restaurant-card span {
+  font-weight: bold;
+  color: #4caf50;
+}
+
+/* Categories */
+.categories {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.category {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.category:hover {
+  transform: translateY(-5px);
+}
+
+/* Available Cities */
+.cities {
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+.city-list {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.city-list span {
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  border-radius: 8px;
+}
+
+/* Footer */
+footer {
+  /* background-color: #333; */
+  color: white;
+  padding: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.footer-content h3 {
+  margin-bottom: 15px;
+}
+
+.footer-content ul {
+  padding: 0;
+}
+
+.footer-content li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.footer-bottom .social-media {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.footer-bottom .social-media li {
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.footer-bottom .social-media li a {
+  color: white;
+}
+
+.footer-bottom .social-media li:hover a {
+  color: #ff5722;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.navBox {
+  display: flex;
+  align-items: center;
+}
+.location {
+  margin-left: 48px;
+}
+.hideSlider {
+  scrollbar-width: none;
+}
+.hideSlider::-webkit-scrollbar {
+  display: none; /* Hides the scrollbar */
+}
+h3::after {
+  content: "";
+  display: block;
+  width: 25px;
+  padding: 1rem 0 0 0;
+  border-bottom: 2px solid #ff645a;
+}
+h3 {
+  padding-bottom: 0px;
+  line-height: 1px;
+}
